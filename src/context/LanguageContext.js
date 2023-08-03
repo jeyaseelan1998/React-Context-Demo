@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react";
 
 const LanguageContext = React.createContext({
-    activeLanguage: "EN",
-    changeLanguage: () => {}
-})
+  activeLanguage: "TE",
+  changeLanguage: () => {},
+});
 
-export default LanguageContext
+export default LanguageContext;
